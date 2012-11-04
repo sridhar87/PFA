@@ -1,22 +1,30 @@
 package org.droidpersistence.model;
 
-public class FieldModel {
+public class FieldModel
+{
 
 	private String ColumnName;
+
 	private String FieldName;
-	
-	public String getColumnName() {
+
+	public String getColumnName()
+	{
 		return ColumnName;
 	}
-	public void setColumnName(String columnName) {
+
+	public void setColumnName(String columnName)
+	{
 		ColumnName = columnName;
 	}
-	public String getFieldName() {
+
+	public String getFieldName()
+	{
 		return FieldName;
 	}
-	public void setFieldName(String fieldName) {
+
+	public void setFieldName(String fieldName)
+	{
 		FieldName = fieldName;
 	}
-	
-	
+
 }
